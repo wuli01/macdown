@@ -10,13 +10,13 @@ target "MacDown" do
   pod 'JJPluralForm', '~> 2.1'      # Plural form localization.
   pod 'LibYAML', '~> 0.1', :inhibit_warnings => true
   pod 'M13OrderedDictionary', '~> 1.1'
-  pod 'MASPreferences', '~> 1.1.3'  # Preference window.
-  pod 'PAPreferences', '~> 0.4'     # Preference singleton (Locked until we drop 10.8 support).
-  pod 'Sparkle', '~> 1.13'          # Updater.
+  pod 'MASPreferences', '~> 1.1.4'  # Preference window.
+  pod 'PAPreferences', '~> 0.5'     # Preference singleton (Locked until we drop 10.8 support).
+  pod 'Sparkle', '~> 1.16'          # Updater.
 end
 
 target "MacDownTests" do
-  pod 'PAPreferences', '~> 0.4'
+  pod 'PAPreferences', '~> 0.5'
 end
 
 target "macdown-cmd" do
